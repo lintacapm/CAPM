@@ -2,7 +2,8 @@ namespace linta.common;
 
 using { sap, Currency, temporal, managed } from '@sap/cds/common';
 
-type Guid : String(32);
+type Guid: String(32);
+
 type Gender : String(1) enum{
     male = 'M';
     female = 'F';

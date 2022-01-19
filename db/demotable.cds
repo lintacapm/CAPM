@@ -1,4 +1,5 @@
 namespace linta.db;
+
 entity orders
 {
     key ID : Integer64;
